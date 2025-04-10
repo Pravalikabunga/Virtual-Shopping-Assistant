@@ -2,7 +2,6 @@
 
 A full-stack web application that provides AI-powered shopping recommendations and product advice using Google's Generative AI (Gemini).
 
-![Virtual Shopping Assistant](https://via.placeholder.com/800x400?text=Virtual+Shopping+Assistant)
 
 ## Features
 
