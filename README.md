@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 ### Clone the Repository
 
 bash
-git clone https://github.com/yourusername/virtual-shopping-assistant.git
+git clone https://github.com/Pravalikabunga/Virtual-Shopping-Assistant.git
 cd virtual-shopping-assistant
 
 
@@ -58,7 +58,7 @@ cd virtual-shopping-assistant
    
    PORT=3000
    NODE_ENV=development
-   MONGODB_URI=mongodb+srv://<your-username>:<your-password>@<your-cluster>.mongodb.net/shopping-assistant
+   MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/shopping-assistant
    JWT_SECRET=your_jwt_secret_key_here
    GOOGLE_API_KEY=your_gemini_api_key_here
    
@@ -93,36 +93,7 @@ To create an admin user:
 
 1. Register a regular user through the application's registration page
 2. Connect to your MongoDB database
-3. Update the user's role to "admin" using the following MongoDB command:
-   javascript
-   db.users.updateOne(
-     { email: "your-email@example.com" },
-     { $set: { role: "admin" } }
-   )
-   
-
-## Application Structure
-
-
-virtual-shopping-assistant/
-├── backend/
-│   ├── src/
-│   │   ├── models/         # Database schemas
-│   │   ├── middleware/     # Authentication middleware
-│   │   ├── routes/         # API endpoints
-│   │   ├── utils/          # Utility functions
-│   │   └── index.js        # Main server file
-│   ├── .env                # Environment variables
-│   └── package.json        # Backend dependencies
-└── frontend/
-    ├── public/             # Static files
-    ├── src/
-    │   ├── components/     # Reusable UI components
-    │   ├── context/        # React contexts
-    │   ├── pages/          # Page components
-    │   ├── App.js          # Main React component
-    │   └── index.js        # Frontend entry point
-    └── package.json        # Frontend dependencies
+3. Update the user's role to "admin".
 
 
 ## API Endpoints
@@ -145,29 +116,6 @@ virtual-shopping-assistant/
 - DELETE /api/admin/users/:id - Delete user (admin only)
 - GET /api/admin/stats - Get system statistics (admin only)
 
-## Screenshots
-
-![Login Page](https://via.placeholder.com/400x200?text=Login+Page)
-![Shopping Assistant](https://via.placeholder.com/400x200?text=Shopping+Assistant)
-![Admin Dashboard](https://via.placeholder.com/400x200?text=Admin+Dashboard)
-
-## Deployment
-
-### Backend Deployment
-
-The backend can be deployed to services like:
-- [Heroku](https://www.heroku.com/)
-- [Railway](https://railway.app/)
-- [Render](https://render.com/)
-- [AWS](https://aws.amazon.com/)
-
-### Frontend Deployment
-
-The frontend can be deployed to:
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
-- [Firebase Hosting](https://firebase.google.com/docs/hosting)
 
 ## Acknowledgments
 
