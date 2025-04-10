@@ -3,7 +3,7 @@
 A full-stack web application that provides AI-powered shopping recommendations and product advice using Google's Generative AI (Gemini).
 
 ## Demo Link 
-![Demo Link for Project](https://virtual-shopping-assistant-pravalikas-projects-551cce70.vercel.app/)       
+[Demo Link for Project](https://virtual-shopping-assistant-pravalikas-projects-551cce70.vercel.app/)       
 
 
 ## Features
